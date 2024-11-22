@@ -1,0 +1,49 @@
+
+body {
+    background-color: rgb(210, 215, 238);
+}
+
+header {
+    text-align: center;
+    background-color: rgb(151, 151, 151);
+}
+
+
+
+
+
+
+
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    flex: 1;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+/* a */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+
