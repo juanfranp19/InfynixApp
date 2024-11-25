@@ -5,6 +5,7 @@ body {
 }
 
 header {
+    font-family: 'Kodchasan';
     text-align: center;
     background-color: rgb(177, 177, 177);
     padding: 1px;
@@ -19,6 +20,7 @@ header {
 /* nav */
 
     nav {
+        font-family: 'Open Sans';
         display: flex;
         justify-content: center;
         padding-right: 40px;
@@ -65,6 +67,11 @@ header {
 
 
 /* main */
+
+    main {
+        margin: 50px 200px;
+        background-color:aqua;
+    }
 
 
     .intro {
