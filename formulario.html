@@ -25,29 +25,41 @@
         </nav>
         <main>
             <h2>Contacto</h2>
-            <form action="#" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre"><br>
+            <form action="#" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
 
-                <label for="correo">Correo:</label>
-                <input type="email" id="correo"><br>
-                
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea name="mensaje" id="mensaje"></textarea><br>
+                <label for="correo">Correo:</label><br>
+                <input type="email" id="correo" name="correo"><br>
+                <hr><br>
+                <!--<label for="mensaje">Mensaje:</label>-->
+                <textarea name="mensaje" id="mensaje" placeholder="Escríbenos algo..."></textarea><br><br>
 
-                <label for="mensaje">¿Cual es el motivo de su mensaje?</label><br>
-                <input type="checkbox" id="trabajo" name="trabajo">
+                <label for="motivo">¿Cual es el motivo de su mensaje?</label><br><br>
+
+                <input type="radio" id="trabajo" name="motivo">
                 <label for="trabajo">Trabajo</label><br>
-                <input type="checkbox" id="quejas" name="quejas">
-                <label for="quejas">Quejas</label><br>
-                <input type="checkbox" id="informar" name="informar">
-                <label for="informar">Informar sobre un problema</label><br>
-                <input type="checkbox" id="otro" name="otro">
-                <label for="otro">Otro</label><br>
 
-                <button type="submit">Enviar</button>
+                <input type="radio" id="informacion" name="motivo">
+                <label for="informacion">Información</label><br>
+
+                <input type="radio" id="quejas" name="motivo">
+                <label for="quejas">Quejas</label><br>
+
+                <input type="radio" id="informar" name="motivo">
+                <label for="informar">Informar sobre un problema</label><br>
+
+                <input type="radio" id="otro" name="motivo">
+                <label for="otro">Otro</label><br><br>
+
+                <div class="button">
+                    <button type="submit">Enviar</button>
+                </div>
+                
             </form>
         </main>
+
+        <br><br><br>
         <footer>
             
         </footer>
