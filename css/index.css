@@ -1,0 +1,125 @@
+
+body {
+    background-color: rgb(239, 242, 255);
+    margin: 0;
+    /* min-width: 500px; */
+}
+
+header {
+    font-family: 'Kodchasan';
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    padding: 1px;
+}
+
+
+/* nav */
+
+    nav {
+        font-family: 'Open Sans';
+        display: flex;
+        justify-content: center;
+        background-color: rgb(177, 177, 177);
+    }
+
+    nav ul {
+        flex: 1;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 10%;
+        /* background-color: aqua; */
+    }
+
+    nav ul li {
+        /* flex: 1; */
+        padding: 10px;
+        border-radius: 10px;
+        justify-content: center;
+    }
+
+    nav ul li:hover {
+        background-color: rgb(136, 142, 168);
+        color: rgb(214, 213, 213);
+    }
+
+/* a */
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /* a:hover {
+        color: rgb(216, 98, 98);
+        text-decoration: underline;
+    } */
+
+
+
+
+
+
+
+/* main */
+
+    main {
+        margin: 0;
+        /* margin-right: 20%; */
+        /* margin-left: 20%; */
+        /* background-color:aqua; */
+
+        min-width: 500px;
+    }
+
+
+    .intro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .intro p {
+        max-height: 260px;
+        background-color: aquamarine;
+    }
+
+    .intro2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .intro2, .intro2 img {
+        justify-content: center;
+        width: 500px;
+        max-width: 500px;
+    }
+
+
+/* section portada*/
+
+section.portada {
+    background-image: url("../assets/images/portada4.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
