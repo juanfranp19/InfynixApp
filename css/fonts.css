@@ -6,5 +6,9 @@
 @font-face {
     font-family: 'Open Sans';
     src: url("../assets/fonts/Open_Sans/OpenSans-Regular.ttf");
-    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Confortaa';
+    src: url("../assets/fonts/Comfortaa/Comfortaa-Regular.ttf");
 }
