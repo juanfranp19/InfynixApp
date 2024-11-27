@@ -30,10 +30,10 @@
                 <input type="text" id="nombre" name="nombre"><br><br>
 
                 <label for="correo">Correo:</label><br>
-                <input type="email" id="correo" name="correo"><br>
-                <hr><br>
+                <input type="email" id="correo" name="correo" required><br>
+                <br>
                 <!--<label for="mensaje">Mensaje:</label>-->
-                <textarea name="mensaje" id="mensaje" placeholder="Escríbenos algo..."></textarea><br><br>
+                <textarea name="mensaje" id="mensaje" placeholder="Escríbenos algo..." required></textarea><br><br>
 
                 <label for="motivo">¿Cual es el motivo de su mensaje?</label><br><br>
 
@@ -51,6 +51,11 @@
 
                 <input type="radio" id="otro" name="motivo">
                 <label for="otro">Otro</label><br><br>
+
+                <hr>
+
+                <input type="checkbox" id="consentimientos" name="consentimientos">
+                <label for="consentimientos">ACEPTO recibir comunicaciones de marketing.</label><br><br>
 
                 <div class="button">
                     <button type="submit">Enviar</button>
