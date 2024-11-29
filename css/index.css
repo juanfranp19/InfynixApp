@@ -15,6 +15,20 @@ header, footer {
     top: 0;
 }
 
+header {
+    font-size: 25px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+}
+
+.logo img{
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 300px;
+}
 
 /* nav */
 
@@ -23,6 +37,7 @@ header, footer {
         display: flex;
         justify-content: center;
         background-color: rgb(177, 177, 177);
+        font-size: 20px;
     }
 
     nav ul {
@@ -76,6 +91,10 @@ header, footer {
         min-width: 500px;
     }
 
+    p {
+        font-size: 20px;
+        font-family: 'Confortaa';
+    }
 
     .intro {
         display: flex;
@@ -84,11 +103,12 @@ header, footer {
     }
 
     .intro p {
-        background-color: aquamarine;
+        background-color: rgb(220, 220, 255);
         padding: 20px;
     }
 
     .intro2 {
+        background-color: rgb(220, 220, 255);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -97,12 +117,12 @@ header, footer {
 
     .intro2 img {
         justify-content: center;
-        width: 500px;
-        max-width: 500px;
+        width: 600px;
     }
 
     .intro2 p {
-        padding: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 

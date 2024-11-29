@@ -12,11 +12,27 @@ header, footer {
     top: 0;
 }
 
+header {
+    font-size: 25px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+}
+
+.logo img{
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 300px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 h2 {
+    font-family: 'Open Sans';
     margin: 30px;
 }
 
@@ -27,6 +43,7 @@ nav {
     display: flex;
     justify-content: center;
     background-color: rgb(177, 177, 177);
+    font-size: 20px;
 }
 
 nav ul {
@@ -56,6 +73,10 @@ nav ul li:hover {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+label {
+    font-family: 'Confortaa';
 }
 
 /* form */
