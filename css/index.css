@@ -22,12 +22,14 @@ header {
 .logo {
     position: absolute;
     left: 0;
+    margin: 2.5px;
+    padding: 0;
 }
 
 .logo img{
     margin-top: 5px;
     margin-left: 15px;
-    width: 300px;
+    width: 200px;
 }
 
 /* nav */
