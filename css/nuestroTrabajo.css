@@ -96,57 +96,62 @@ header {
         font-size: 20px;
         font-family: 'Confortaa';
     }
-
-    .intro {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .intro p {
-        background-color: rgb(220, 220, 255);
-        padding: 20px;
-    }
-
-    .intro2 {
+    .pagina1 {
         background-color: rgb(220, 220, 255);
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 50px;
+        margin: 50px;
     }
 
-    .intro2 img {
+    .pagina1 img {
         justify-content: center;
         width: 600px;
     }
 
-    .intro2 p {
+    .pagina1 p {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-
-    /* section portada*/
-    section.portada {
-        background-image: url("../assets/images/portada4.jpg");
-        background-size: cover;
-        background-position-y: center;
-        background-repeat: no-repeat;
-
-        width: 100%;
-        height: 500px;
-
-        align-content: center;
+    .pagina2 {
+        background-color: rgb(220, 220, 255);
+        display: flex;
         justify-content: center;
-    }
-    .bienvenida {
-        font-family: 'Kodchasan';
-        background-color: white;
-        min-width: 150px;
-        text-align: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin: 50px;
     }
 
+    .pagina2 img {
+        justify-content: center;
+        width: 600px;
+    }
+
+    .pagina2 p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .pagina3 {
+        background-color: rgb(220, 220, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin: 50px;
+    }
+
+    .pagina3 img {
+        justify-content: center;
+        width: 600px;
+    }
+
+    .pagina3 p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
 
 /* footer */ 
