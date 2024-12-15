@@ -1,4 +1,4 @@
-![InfynixApp](assets/logo/logo%20InfynixApp%20sin%20letra%20sin%20margenes.png)
+![InfynixApp](infynixapp/assets/logo/logo%20InfynixApp%20sin%20letra%20sin%20margenes.png)
 
 # InfynixApp
 
