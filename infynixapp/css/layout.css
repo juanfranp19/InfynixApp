@@ -106,13 +106,21 @@ nav ul {
     padding: 0 10%;
 }
 
-nav ul li {
+.menu-item {
     padding: 10px;
     border-radius: 10px;
     justify-content: center;
 }
 
-nav ul li:hover {
+.menu-item:hover {
+    background-color: rgb(127, 127, 212);
+    color: #000080ff;
+}
+
+.menu-item.active {
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
     background-color: rgb(127, 127, 212);
     color: #000080ff;
 }
